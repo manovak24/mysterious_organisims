@@ -75,14 +75,14 @@ let pool = () => {
 console.log(pool());
 
 //Testing willLikelySurvive method
-/*let testDna = mockUpStrand();
+let testDna = mockUpStrand();
 console.log(testDna);
 let survivalRate = pAequorFactory(1, testDna).willLikelySurvive();
 console.log(survivalRate);
 
 //Testing pAquorFactory fuction
-//let newDna = mockUpStrand();
-//console.log(newDna);
+let newDna = mockUpStrand();
+console.log(newDna);
 
 //Testing mutate method
 //let mutateDna = pAequorFactory(1, newDna).mutate();
@@ -99,15 +99,7 @@ let testDnaOne = pAequorFactory(1, newDnaOne).compareDna(pAequorFactory(2, newDn
 let compareTest = testDnaOne
 console.log(compareTest);*/
 
-
-
-
-
-
-
-
-
-
-
-
+//Below is just a git test using the integrated git features in VS Code
+let stepOne = 'Create a new git branch';
+console.log(stepOne);
 
