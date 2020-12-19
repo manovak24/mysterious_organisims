@@ -22,6 +22,8 @@ This project was a CodeCademy project in the JavaScript Syntax, Part II section 
 * node - version 12.18.0
 
 ## Setup
+Clone respository from https://github.com/manovak24/mysterious_organisims.git
+
 To start your server, run `npm install` and then `node server.js`.
 
 ## Code Examples
