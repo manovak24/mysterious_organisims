@@ -13,7 +13,8 @@
 * [Contact](#contact)
 
 ## General info
-> This project was a CodeCademy project in the JavaScript Syntax, Part II section of the Full-Engineer Course
+> This project was a CodeCademy project in the JavaScript Syntax, Part II section of the Full-Engineer Course.
+> Context: You’re part of a research team that has found a new mysterious organism at the bottom of the ocean near hydrothermal vents. Your team names the organism, Pila aequor (P. aequor), and finds that it is only comprised of 15 DNA bases. The small DNA samples and frequency at which it mutates due to the hydrothermal vents make P. aequor an interesting specimen to study. However, P. aequor cannot survive above sea level and locating P. aequor in the deep sea is difficult and expensive.
 
 ## Technologies
 * JavaScript - version ES6
@@ -36,18 +37,20 @@ const returnRandBase = () => {
 ## Features
 List of features ready and TODOs for future development
 * Creates an objectc containing a random DNA strand
-* Factory function `pAequorFactory` returns object that contains two properties - Specimen Number and DNA strand
-* `pAequorFactory.mutate()` simulates P. aequor's high rate of mutation by randomly selecting a base(index) in the object, changing the randomly selected base and returning a new objects's DNA.
+* Factory function `pAequorFactory` returns P. aequor object that contains two properties - Specimen Number and DNA strand
+* `pAequorFactory.mutate()` simulates P. aequor's high rate of mutation by randomly selecting a base(index) in the object, changing the randomly selected base and returning a new objects's DNA
+* `pAequorFactory.compareDna()` compares DNA sequences of different P. aequors and returns a string stating the calculated percentage of DNA bases that are identical and at the same index
+* `pAequorFactory.willLikelySurvive()` returns `true` if P. aequors DNA contains at least 60& 'C' or 'G' bases
+* `pool` creates 30 instances of P. Aequor that will survive in the environment (when `pAequorFactory.willLikelySurvive()` return `true`)
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Create `.complementStrand()` method
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _finished_
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+CodeCademy project
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@manovak24](https://github.com/manovak24) - feel free to contact me!
